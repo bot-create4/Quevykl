@@ -66,30 +66,28 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                 try {
                     const credsData = fs.readFileSync(credsFilePath, 'utf-8');
                     const base64Session = Buffer.from(credsData).toString('base64');
-                    const md = "King-RANUX~" + base64Session;
+                    const md = "ANJU-XPRO~" + base64Session;
                     const codeMessage = await sock.sendMessage(sock.user.id, { text: md });
                     
                     let cap = `
-_*👑King RANUX Pairing Successful!🚀*_ 
+🔐 *𝙳𝙾 𝙽𝙾𝚃 𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
 
-Your *KING RANUX* Session ID has been sent directly to you in the previous message.
+Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
+
+📂 *WEBSITE:*  
+👉 https://xpro-botz-ofc.vercel.app/
 
 🛠️ *To add your SESSION_ID:*  
 1. Open the \`session.js\` file in the repo.  
 2. Paste your session like this:  
+\`\`\`js
 module.exports = {
   SESSION_ID: 'PASTE_YOUR_SESSION_ID_HERE'
 }
+\`\`\`  
 3. Save the file and run the bot. ✅
-4. 
-.
 
-*⚠️ IMPORTANT:*
-Do not share the Session ID with anyone!
-
----
-*Thank You For Using KING RANUX! 🤖*
-> _Developed with ❤️ by Mr. Ransara Devnath_
+⚠️ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
 `;
                     await sock.sendMessage(sock.user.id, {
                         text: cap,
@@ -113,34 +111,32 @@ Do not share the Session ID with anyone!
                     logger.error(`Error in connection update: ${error.message}`);
                     const errorMessage = await sock.sendMessage(sock.user.id, { text: error.message });
                     let cap = `
-_*👑King RANUX Pairing Successful!🚀*_ 
+🔐 *𝙳𝙾 𝙽𝙾𝚃 �𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 �𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
 
-Your *KING RANUX* Session ID has been sent directly to you in the previous message.
+Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
+
+📂 *WEBSITE:*  
+👉 https://xpro-botz-ofc.vercel.app/
 
 🛠️ *To add your SESSION_ID:*  
 1. Open the \`session.js\` file in the repo.  
 2. Paste your session like this:  
+\`\`\`js
 module.exports = {
   SESSION_ID: 'PASTE_YOUR_SESSION_ID_HERE'
 }
+\`\`\`  
 3. Save the file and run the bot. ✅
-4. 
-.
 
-*⚠️ IMPORTANT:*
-Do not share the Session ID with anyone!
-
----
-*Thank You For Using KING RANUX! 🤖*
-> _Developed with ❤️ by Mr. Ransara Devnath_
+⚠️ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
 `;
                     await sock.sendMessage(sock.user.id, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
-                                title: "King RANUX MD",
-                                thumbnailUrl: "https://raw.githubusercontent.com/bot-create4/Quevykl/refs/heads/main/Item/Gemini_Generated_Image_88me0y88me0y88me.png",
-                                sourceUrl: "https://whatsapp.com/channel/0029VbB0bnq0gcfMqhA9j93c",
+                                title: "QUEEN ANJU XPRO",
+                                thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
+                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
