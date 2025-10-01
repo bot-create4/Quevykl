@@ -66,36 +66,48 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                 try {
                     const credsData = fs.readFileSync(credsFilePath, 'utf-8');
                     const base64Session = Buffer.from(credsData).toString('base64');
-                    const md = "ANJU-XPRO~" + base64Session;
+                    const md = "KING-RANUX~" + base64Session;
                     const codeMessage = await sock.sendMessage(sock.user.id, { text: md });
                     
                     let cap = `
-🔐 *𝙳𝙾 𝙽𝙾𝚃 𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
+_*👑 KING RANUX Pairing Successful! 🚀*_
 
-Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
+Your *KING RANUX* Session ID has been securely delivered in the previous message. You're now officially connected to the realm of automation royalty! 👑
 
-📂 *WEBSITE:*  
-👉 https://xpro-botz-ofc.vercel.app/
-
-🛠️ *To add your SESSION_ID:*  
-1. Open the \`session.js\` file in the repo.  
-2. Paste your session like this:  
-\`\`\`js
+🛠️ *How to add your SESSION_ID:*
+1️⃣ Open the `session.js` file in your project repo
+2️⃣ Paste your session like this:
+```js
 module.exports = {
   SESSION_ID: 'PASTE_YOUR_SESSION_ID_HERE'
 }
-\`\`\`  
-3. Save the file and run the bot. ✅
+```
+  3️⃣ Save the file
+4️⃣ Run the bot and watch the magic unfold! ✅
 
-⚠️ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
+---
+
+⚠️ _IMPORTANT:_
+Your Session ID is *private*. Never share it with anyone—even your most trusted allies!
+
+---
+
+📣 _Community & Updates:_
+🔗 Join our support group: https://chat.whatsapp.com/Fdg0tLbtrZs3WA0v2y8DHx?mode=ems_copy_t
+📢 Follow the official channel: https://whatsapp.com/channel/0029VbB0bnq0gcfMqhA9j93c
+
+---
+
+🙏 _Thank you for choosing KING RANUX!_ 🤖
+> _Crafted with ❤️ by Mr. Ransara Devnath_
 `;
                     await sock.sendMessage(sock.user.id, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
-                                title: "QUEEN ANJU XPRO ✅",
-                                thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+                                title: "King RANUX MD✅",
+                                thumbnailUrl: "https://raw.githubusercontent.com/bot-create4/Quevykl/refs/heads/main/Item/Gemini_Generated_Image_88me0y88me0y88me.png",
+                                sourceUrl: "https://whatsapp.com/channel/0029VbB0bnq0gcfMqhA9j93c",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
@@ -111,32 +123,44 @@ module.exports = {
                     logger.error(`Error in connection update: ${error.message}`);
                     const errorMessage = await sock.sendMessage(sock.user.id, { text: error.message });
                     let cap = `
-🔐 *𝙳𝙾 𝙽𝙾𝚃 �𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 �𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
+_*👑 KING RANUX Pairing Successful! 🚀*_
 
-Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
+Your *KING RANUX* Session ID has been securely delivered in the previous message. You're now officially connected to the realm of automation royalty! 👑
 
-📂 *WEBSITE:*  
-👉 https://xpro-botz-ofc.vercel.app/
-
-🛠️ *To add your SESSION_ID:*  
-1. Open the \`session.js\` file in the repo.  
-2. Paste your session like this:  
-\`\`\`js
+🛠️ *How to add your SESSION_ID:*
+1️⃣ Open the `session.js` file in your project repo
+2️⃣ Paste your session like this:
+```js
 module.exports = {
   SESSION_ID: 'PASTE_YOUR_SESSION_ID_HERE'
 }
-\`\`\`  
-3. Save the file and run the bot. ✅
+```
+  3️⃣ Save the file
+4️⃣ Run the bot and watch the magic unfold! ✅
 
-⚠️ *NEVER SHARE YOUR SESSION ID WITH ANYONE!*
+---
+
+⚠️ _IMPORTANT:_
+Your Session ID is *private*. Never share it with anyone—even your most trusted allies!
+
+---
+
+📣 _Community & Updates:_
+🔗 Join our support group: https://chat.whatsapp.com/Fdg0tLbtrZs3WA0v2y8DHx?mode=ems_copy_t
+📢 Follow the official channel: https://whatsapp.com/channel/0029VbB0bnq0gcfMqhA9j93c
+
+---
+
+🙏 _Thank you for choosing KING RANUX!_ 🤖
+> _Crafted with ❤️ by Mr. Ransara Devnath_
 `;
                     await sock.sendMessage(sock.user.id, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
-                                title: "QUEEN ANJU XPRO",
-                                thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+                                title: "King RANUX MD",
+                                thumbnailUrl: "https://raw.githubusercontent.com/bot-create4/Quevykl/refs/heads/main/Item/Gemini_Generated_Image_88me0y88me0y88me.png",
+                                sourceUrl: "https://whatsapp.com/channel/0029VbB0bnq0gcfMqhA9j93c",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
