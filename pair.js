@@ -139,8 +139,8 @@ Do not share the Session ID with anyone!
                         contextInfo: {
                             externalAdReply: {
                                 title: "King RANUX MD",
-                                thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+                                thumbnailUrl: "https://raw.githubusercontent.com/bot-create4/Quevykl/refs/heads/main/Item/Gemini_Generated_Image_88me0y88me0y88me.png",
+                                sourceUrl: "https://whatsapp.com/channel/0029VbB0bnq0gcfMqhA9j93c",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
